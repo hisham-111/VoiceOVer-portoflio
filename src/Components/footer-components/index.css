@@ -1,0 +1,157 @@
+.footer-container {
+  background-color: black;
+  padding: 2rem 0;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  /* border-radius: 10px; */
+}
+.footer {
+  width: 80%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: auto;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  line-height: 2.2em;
+}
+
+.footer-heading .email:hover {
+  color: #fff;
+  transition: 0.3s ease-out;
+  color: balck;
+}
+
+.footer-email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .footer-email-form h2 {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+} */
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #fff;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  outline: none;
+  padding: 0 0rem;
+  font-weight: 600;
+  border: none;
+  font-size: 0.8rem;
+  color: white;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.4s ease-out;
+  color: #333;
+}
+
+.footer-container {
+  bottom: 0;
+  top: 0;
+  margin: 0 auto;
+}
+
+.social {
+  margin-left: 0.8rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.social:hover {
+  opacity: 0.7;
+  transition: ease-out 0.35s;
+}
+.emailBox {
+  line-height: 1.2em;
+  color: #5e00f8;
+  font-size: 18px;
+}
+.email {
+  margin-left: 4px;
+}
+.title-footer-head {
+  font-size: var(--title-font-size-small);
+  margin-bottom: 1.4rem;
+  color: var(--first-color-second);
+}
+
+.text-footer-head,
+.email {
+  margin-bottom: 1rem;
+  font-size: var(--title-font-size-small-To2-box);
+}
+
+.right-reserved {
+  font-variant: var(--title-font-size-small-To2-box);
+}
+
+@media screen and (min-width: 580px) {
+  .title-footer-head {
+    font-size: var(--title-font-size-mid);
+    margin-bottom: 1.4rem;
+  }
+
+  .text-footer-head,
+  .email {
+    margin-bottom: 1rem;
+    font-size: var(--title-font-size-small-To-box);
+  }
+
+  .right-reserved {
+    font-variant: var(--title-font-size-small-To-box);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .right-reserved {
+    font-size: var(--title-font-size-small-box);
+  }
+
+  .title-footer-head {
+    font-size: var(--title-font-size);
+    margin-bottom: 1.4rem;
+  }
+
+  .text-footer-head,
+  .email {
+    margin-bottom: 1rem;
+    font-size: var(--title-font-size-small-box);
+  }
+}

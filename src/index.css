@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #171515;
+  color: white;
+}
+
+/* :root {
+  --first-color: #fff;
+  --second-color: #000;
+} */
+
+:root {
+  --first-color: white;
+  --first-color-second: cornflowerblue;
+
+  /* .5rem = 8px, 1.7rem = 28px, 1.5rem = 24px ... */
+  --top-title-size: 4rem;
+  --title-font-size: 1.7rem;
+  --title-font-size-mid: 1.5rem;
+  --title-font-size-small: 1.4rem;
+
+  --title-font-size-small-box: 1.2rem;
+  --title-font-size-small-To-box: 1rem;
+  --title-font-size-small-To2-box: 0.9rem;
+
+  --normal-font-size: 0.938rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+  /* --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem; */
+
+  /*========== z index ==========*/
+  /* --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000; */
+}

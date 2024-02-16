@@ -1,0 +1,245 @@
+.home__social {
+  margin: 1.2rem auto;
+}
+
+.home__container {
+  position: relative;
+}
+.home__img {
+  background-color: cornflowerblue;
+  filter: brightness(60%);
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+}
+.home__img .img-hero {
+  max-width: 230px;
+  height: 224px;
+  width: 66%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: 0rem;
+  margin-left: 1.2rem;
+}
+
+.home__img {
+  display: grid;
+  align-items: end;
+}
+.home__data {
+  padding: 15px;
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+}
+
+.player_container {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #dadada;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  bottom: 5.6rem;
+  right: 0;
+}
+
+@media screen and (min-width: 568px) {
+  .home__img .img-hero {
+    max-width: 170px;
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: -4rem;
+    margin-left: 2rem;
+  }
+  .player_container {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #dadada;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: -1.4rem;
+    right: 9rem;
+  }
+
+  .home__data {
+    padding: 15px;
+    position: absolute;
+    top: 4rem;
+    left: 12rem;
+  }
+}
+
+.filter-box {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home__social {
+    position: absolute;
+    bottom: 18rem;
+    right: 1rem;
+    z-index: 99;
+    transform: rotate(90deg);
+  }
+
+  .icon-socialmedia {
+    transform: rotate(-90deg);
+  }
+
+  .home__social-icon:hover {
+    opacity: 0.7;
+    transition: ease-out 0.35s;
+  }
+  .home__img {
+    background-color: cornflowerblue;
+    filter: brightness(60%);
+    width: 70%;
+    height: 70vh;
+    margin: 5rem 6rem 0 auto;
+    padding-left: 0;
+  }
+
+  .home__img .img-hero {
+    max-width: 40rem;
+    height: 47rem;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: -18rem;
+    margin-left: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -14rem auto 0rem auto;
+  }
+
+  .player_container {
+    width: 18%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #dadada;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: -0.4rem;
+    left: 8rem;
+  }
+
+  .home__data {
+    padding: 0;
+    position: absolute;
+    top: -26rem;
+    left: 9rem;
+    font-size: 1.7rem;
+    line-height: 1.7em;
+    width: 47%;
+  }
+
+  .home__data-blur {
+    position: relative;
+  }
+  .filter-box {
+    display: block;
+  }
+  .filter-box {
+    position: absolute;
+    top: -29rem;
+    left: 8rem;
+    max-width: 490px;
+    width: 100%;
+  }
+
+  .home__description {
+    width: 84%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home__social {
+    position: absolute;
+    bottom: -5rem;
+    left: -36%;
+    z-index: 99;
+    width: 16rem;
+    margin: 0 auto;
+    transform: rotate(0deg);
+  }
+  .icon-socialmedia {
+    transform: rotate(0deg);
+  }
+  .home__container .home__content {
+    width: 97%;
+    height: 60vh;
+    margin: 0 auto;
+  }
+
+  .home__img {
+    position: relative;
+    background-color: cornflowerblue;
+    filter: brightness(60%);
+    width: 38%;
+    height: 70vh;
+    margin: 5rem 23.4rem 0 auto;
+    padding-left: 0;
+  }
+
+  .filter-box {
+    position: relative;
+    top: -33rem;
+    left: 20rem;
+    max-width: 650px;
+    width: 100%;
+  }
+
+  .home__data {
+    padding: 0 0 0 4rem;
+    position: absolute;
+    top: -30rem;
+    left: 22rem;
+    font-size: 1.7rem;
+    line-height: 1.7em;
+    width: 88%;
+  }
+  .home__data-blur {
+    height: 23%;
+    width: 40%;
+  }
+
+  .home__description {
+    width: 84%;
+  }
+
+  .player_container {
+    width: 14%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #dadada;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: -3.4rem;
+    left: 24.5%;
+  }
+}
+
+.home__social .home__social-icon {
+  margin-left: 1.2rem;
+}
+
+.home__social-icon {
+  font-size: 1.4rem;
+  color: white;
+}
